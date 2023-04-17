@@ -15,7 +15,7 @@ try {
     // file does not exist or is empty, continue with empty array
 }
 
-// feature -> request
+// loops for getting data from all chapters
 for(let i = 0; i < arr.length; i++){
     let url = `https://chanakyadrishti.com/chapter-${arr[i]}-english/`;
     request(url, cb);
